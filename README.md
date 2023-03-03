@@ -1,3 +1,0 @@
-# LAPS
-LAPS Repository
-Test
