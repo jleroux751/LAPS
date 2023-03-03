@@ -384,3 +384,5 @@ $entry.AppendChild($history) | Out-Null;
 
 # Display XML
 $doc.InnerXml;
+
+$doc.InnerXml | Out-File -FilePath "E:\GitHub\LAPS\KeyPass\Output.xml"
