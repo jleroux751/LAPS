@@ -17,12 +17,12 @@
 			<MaxItemCount>12</MaxItemCount>
 			<Items>
 				<ConnectionInfo>
-					<Path>test5678.kdbx</Path>
+					<Path>test1234.kdbx</Path>
 					<CredProtMode>Obf</CredProtMode>
 					<CredSaveMode>NoSave</CredSaveMode>
 				</ConnectionInfo>
 				<ConnectionInfo>
-					<Path>test1234.kdbx</Path>
+					<Path>test5678.kdbx</Path>
 					<CredProtMode>Obf</CredProtMode>
 					<CredSaveMode>NoSave</CredSaveMode>
 				</ConnectionInfo>
@@ -58,8 +58,8 @@
 	</Application>
 	<Logging />
 	<MainWindow>
-		<X>334</X>
-		<Y>284</Y>
+		<X>176</X>
+		<Y>200</Y>
 		<Width>944</Width>
 		<Height>599</Height>
 		<SplitterHorizontalFrac>0.8333</SplitterHorizontalFrac>
