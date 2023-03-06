@@ -7,15 +7,25 @@
 		<DpiFactorY>1</DpiFactorY>
 	</Meta>
 	<Application>
-		<LastUpdateCheck>2023-03-04T11:19:44Z</LastUpdateCheck>
+		<LastUpdateCheck>2023-03-06T14:35:30Z</LastUpdateCheck>
 		<LastUsedFile>
-			<Path>test1234.kdbx</Path>
+			<Path>MFLKPLAB2.kdbx</Path>
 			<CredProtMode>Obf</CredProtMode>
 			<CredSaveMode>NoSave</CredSaveMode>
 		</LastUsedFile>
 		<MostRecentlyUsed>
 			<MaxItemCount>12</MaxItemCount>
 			<Items>
+				<ConnectionInfo>
+					<Path>MFLKPLAB.kdbx</Path>
+					<CredProtMode>Obf</CredProtMode>
+					<CredSaveMode>NoSave</CredSaveMode>
+				</ConnectionInfo>
+				<ConnectionInfo>
+					<Path>MFLKPLAB2.kdbx</Path>
+					<CredProtMode>Obf</CredProtMode>
+					<CredSaveMode>NoSave</CredSaveMode>
+				</ConnectionInfo>
 				<ConnectionInfo>
 					<Path>test1234.kdbx</Path>
 					<CredProtMode>Obf</CredProtMode>
@@ -58,8 +68,8 @@
 	</Application>
 	<Logging />
 	<MainWindow>
-		<X>176</X>
-		<Y>200</Y>
+		<X>416</X>
+		<Y>165</Y>
 		<Width>944</Width>
 		<Height>599</Height>
 		<SplitterHorizontalFrac>0.8333</SplitterHorizontalFrac>
@@ -173,6 +183,14 @@
 			</Association>
 			<Association>
 				<DatabasePath>test5678.kdbx</DatabasePath>
+				<Password>true</Password>
+			</Association>
+			<Association>
+				<DatabasePath>MFLKPLAB.kdbx</DatabasePath>
+				<Password>true</Password>
+			</Association>
+			<Association>
+				<DatabasePath>MFLKPLAB2.kdbx</DatabasePath>
 				<Password>true</Password>
 			</Association>
 		</KeySources>

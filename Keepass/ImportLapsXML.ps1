@@ -1,2 +1,0 @@
-# Import list
-cmd /c "M:\Keepass\KPScript.exe"  -c:Import "M:\Keepass\test1234.kdbx" -pw-enc:"AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAABYGq94aWTk+WM3tnTlBsnQAAAAACAAAAAAADZgAAwAAAABAAAACtZvycB7AHvSrEED+c/uOkAAAAAASAAACgAAAAEAAAAHPktTvWxh3fuh/tVGLwnPsIAAAAzwLmhKaKCO0UAAAAoqNXNyw3USSNt0uGjUB4xyKwptg=" -Field:Password -refx-UUID:"E29C234750FE5F419BF82051257E51A4" -Format:"KeePass XML (2.x)" -MM:OverwriteIfNewer  -File:"M:\Keepass\Output.xml"
