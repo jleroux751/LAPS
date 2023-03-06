@@ -78,7 +78,7 @@
 			</Column>
 			<Column>
 				<Type>Password</Type>
-				<Width>154</Width>
+				<Width>167</Width>
 			</Column>
 			<Column>
 				<Type>Url</Type>
@@ -86,7 +86,7 @@
 			</Column>
 			<Column>
 				<Type>Notes</Type>
-				<Width>90</Width>
+				<Width>357</Width>
 			</Column>
 		</EntryListColumnCollection>
 		<EntryListColumnDisplayOrder>0 1 2 3 4</EntryListColumnDisplayOrder>

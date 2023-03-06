@@ -384,4 +384,8 @@ $entry.AppendChild($history) | Out-Null;
 
 # Display XML
 # $doc.InnerXml;
-$doc.InnerXml | Out-File -FilePath "\\az140-21-p1-0\LAPS_to_KeePass\Keepass\Output.xml"
+$doc.InnerXml | Out-File -FilePath "C:\LAPS\Keepass\Output.xml" -Encoding utf8
+
+# Import list
+cmd /c "C:\LAPS\Keepass\KPScript.exe"  -c:Import "\\AZ140-21-P1-0\LAPS_to_KeePass\Keepass\test1234.kdbx" -pw:"1234" -Field:Password -refx-UUID:"E29C234750FE5F419BF82051257E51A4" -Format:"KeePass XML (2.x)" -MM:OverwriteIfNewer  -File:"C:\LAPS\Keepass\Output.xml"
+
